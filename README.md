@@ -1,3 +1,19 @@
+🧱 Project Structure
+ finance_manager/
+│
+├── main.py # Entry point
+├── expense.py # Expense class
+├── file_manager.py # File handling & backup
+├── menu.py # CLI menu system
+├── reports.py # Reports & analytics
+├── utils.py # Validation utilities
+│
+├── data/
+│ └── expenses.csv # Expense storage
+│
+├── backups/ # Backup files
+└── reports/ # Generated reports
+
 # Personal-Finance-Manager
 import json
 import os
